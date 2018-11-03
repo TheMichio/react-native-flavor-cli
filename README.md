@@ -8,11 +8,12 @@ this package will run your android react-native project based on you choice of f
 [![License](https://img.shields.io/npm/l/react-native-flavor-cli.svg)](https://github.com/Projects/react-native-flavor-cli/blob/master/package.json)
 
 <!-- toc -->
-* [react-native-flavor-cli](#react-native-flavor-cli)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
+
+- [react-native-flavor-cli](#react-native-flavor-cli)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Commands](#commands)
+  <!-- tocstop -->
 
 # Setup
 
@@ -34,7 +35,7 @@ and then add needed gradle task to the `android/app/build.gradle` file
 
 ```groovy
 task saveRnfcliData () {
-   group "michio"
+   group "rnfcli"
    def flavorsDetail = []
    def dimensions = []
    doLast {
@@ -114,6 +115,7 @@ rnf-cli init
 # Usage
 
 <!-- usage -->
+
 ```sh-session
 $ npm install -g react-native-flavor-cli
 $ rnf-cli COMMAND
@@ -125,18 +127,20 @@ USAGE
   $ rnf-cli COMMAND
 ...
 ```
+
 <!-- usagestop -->
 
 # Commands
 
 <!-- commands -->
-* [`rnf-cli build-android`](#rnf-cli-build-android)
-* [`rnf-cli clean-android`](#rnf-cli-clean-android)
-* [`rnf-cli help [COMMAND]`](#rnf-cli-help-command)
-* [`rnf-cli init`](#rnf-cli-init)
-* [`rnf-cli reset`](#rnf-cli-reset)
-* [`rnf-cli run-android`](#rnf-cli-run-android)
-* [`rnf-cli start`](#rnf-cli-start)
+
+- [`rnf-cli build-android`](#rnf-cli-build-android)
+- [`rnf-cli clean-android`](#rnf-cli-clean-android)
+- [`rnf-cli help [COMMAND]`](#rnf-cli-help-command)
+- [`rnf-cli init`](#rnf-cli-init)
+- [`rnf-cli reset`](#rnf-cli-reset)
+- [`rnf-cli run-android`](#rnf-cli-run-android)
+- [`rnf-cli start`](#rnf-cli-start)
 
 ## `rnf-cli build-android`
 
@@ -148,7 +152,7 @@ USAGE
 
 DESCRIPTION
   ...
-  This command will ask you name of product flavors based on dimensions from build.gradle file and then generates new 
+  This command will ask you name of product flavors based on dimensions from build.gradle file and then generates new
   apk for you.
 ```
 
@@ -251,6 +255,7 @@ DESCRIPTION
 ```
 
 _See code: [src/commands/start.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.3/src/commands/start.js)_
+
 <!-- commandsstop -->
 
 - [`rnf-cli build-android`](#rnf-cli-build-android)
