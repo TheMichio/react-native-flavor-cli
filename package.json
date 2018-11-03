@@ -36,7 +36,13 @@
   ],
   "homepage": "https://github.com/TheMichio/react-native-flavor-cli.git",
   "keywords": [
-    "oclif"
+    "oclif",
+    "flavor",
+    "product-flavors",
+    "multi-apk",
+    "android",
+    "react-native",
+    "cli"
   ],
   "license": "MIT",
   "main": "src/index.js",
