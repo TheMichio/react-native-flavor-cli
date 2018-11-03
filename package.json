@@ -1,7 +1,7 @@
 {
   "name": "react-native-flavor-cli",
   "description": "this package will run your android react-native project based on you choice of flavors and dimensions ",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Mohsen Hajibeigloo",
   "bin": {
     "rnf-cli": "./bin/run"

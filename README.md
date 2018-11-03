@@ -8,12 +8,11 @@ this package will run your android react-native project based on you choice of f
 [![License](https://img.shields.io/npm/l/react-native-flavor-cli.svg)](https://github.com/Projects/react-native-flavor-cli/blob/master/package.json)
 
 <!-- toc -->
-
-- [react-native-flavor-cli](#react-native-flavor-cli)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Commands](#commands)
-  <!-- tocstop -->
+* [react-native-flavor-cli](#react-native-flavor-cli)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Commands](#commands)
+<!-- tocstop -->
 
 # Setup
 
@@ -115,32 +114,29 @@ rnf-cli init
 # Usage
 
 <!-- usage -->
-
 ```sh-session
 $ npm install -g react-native-flavor-cli
 $ rnf-cli COMMAND
 running command...
 $ rnf-cli (-v|--version|version)
-react-native-flavor-cli/1.0.3 darwin-x64 node-v8.11.4
+react-native-flavor-cli/1.0.4 darwin-x64 node-v8.11.4
 $ rnf-cli --help [COMMAND]
 USAGE
   $ rnf-cli COMMAND
 ...
 ```
-
 <!-- usagestop -->
 
 # Commands
 
 <!-- commands -->
-
-- [`rnf-cli build-android`](#rnf-cli-build-android)
-- [`rnf-cli clean-android`](#rnf-cli-clean-android)
-- [`rnf-cli help [COMMAND]`](#rnf-cli-help-command)
-- [`rnf-cli init`](#rnf-cli-init)
-- [`rnf-cli reset`](#rnf-cli-reset)
-- [`rnf-cli run-android`](#rnf-cli-run-android)
-- [`rnf-cli start`](#rnf-cli-start)
+* [`rnf-cli build-android`](#rnf-cli-build-android)
+* [`rnf-cli clean-android`](#rnf-cli-clean-android)
+* [`rnf-cli help [COMMAND]`](#rnf-cli-help-command)
+* [`rnf-cli init`](#rnf-cli-init)
+* [`rnf-cli reset`](#rnf-cli-reset)
+* [`rnf-cli run-android`](#rnf-cli-run-android)
+* [`rnf-cli start`](#rnf-cli-start)
 
 ## `rnf-cli build-android`
 
@@ -152,11 +148,11 @@ USAGE
 
 DESCRIPTION
   ...
-  This command will ask you name of product flavors based on dimensions from build.gradle file and then generates new
+  This command will ask you name of product flavors based on dimensions from build.gradle file and then generates new 
   apk for you.
 ```
 
-_See code: [src/commands/build-android.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.3/src/commands/build-android.js)_
+_See code: [src/commands/build-android.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.4/src/commands/build-android.js)_
 
 ## `rnf-cli clean-android`
 
@@ -171,7 +167,7 @@ DESCRIPTION
   This will run gradle clean in android folder of your react-native project
 ```
 
-_See code: [src/commands/clean-android.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.3/src/commands/clean-android.js)_
+_See code: [src/commands/clean-android.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.4/src/commands/clean-android.js)_
 
 ## `rnf-cli help [COMMAND]`
 
@@ -206,7 +202,7 @@ DESCRIPTION
   This will create new rnf-config.json in your root folder of your project, please add this to your git.
 ```
 
-_See code: [src/commands/init.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.3/src/commands/init.js)_
+_See code: [src/commands/init.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.4/src/commands/init.js)_
 
 ## `rnf-cli reset`
 
@@ -221,7 +217,7 @@ DESCRIPTION
   Command for reseting metro bundler and restarting it.
 ```
 
-_See code: [src/commands/reset.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.3/src/commands/reset.js)_
+_See code: [src/commands/reset.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.4/src/commands/reset.js)_
 
 ## `rnf-cli run-android`
 
@@ -239,7 +235,7 @@ DESCRIPTION
   For running your react-native android app with rnf-cli please follow the steps in documentation.
 ```
 
-_See code: [src/commands/run-android.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.3/src/commands/run-android.js)_
+_See code: [src/commands/run-android.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.4/src/commands/run-android.js)_
 
 ## `rnf-cli start`
 
@@ -254,8 +250,7 @@ DESCRIPTION
   Please make sure you are in the right project folder when you want to use this command.
 ```
 
-_See code: [src/commands/start.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.3/src/commands/start.js)_
-
+_See code: [src/commands/start.js](https://github.com/TheMichio/react-native-flavor-cli/blob/v1.0.4/src/commands/start.js)_
 <!-- commandsstop -->
 
 - [`rnf-cli build-android`](#rnf-cli-build-android)
